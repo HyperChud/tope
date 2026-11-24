@@ -40,16 +40,23 @@ Topé is a tracking tool, not an incentive to use. All stats come from real meas
   adjustable background pattern
 - Cosmetic option to change the name shown for the substance (the data isn't affected)
 
+## Download
+
+Get the latest signed APK from the [Releases](../../releases/latest) page.
+
 ## Build
 
 ### With GitHub Actions
 
-Every push to `main` runs the calculation tests and builds the APK. Open the **Actions** tab, pick the latest
+To publish a new release, push a tag like `v1.1` (or run the **Release** workflow by hand). It builds a signed
+APK and attaches it to a GitHub release. This needs the signing secrets described below.
+
+For quick test builds, every push to `main` runs the calculation tests and builds the APK. Open the **Actions** tab, pick the latest
 run and download the `Tope` artifact.
 
-By default, each run signs the APK with a new throwaway key, so a new build won't install over the old one
-(uninstalling wipes your data, so **export a backup first**). To install updates over the previous version, add
-these repository secrets under **Settings → Secrets and variables → Actions**:
+Without the secrets below, test builds are signed with a new throwaway key, so a new build won't install over the old one
+(uninstalling wipes your data, so **export a backup first**). Releases and test builds use these
+repository secrets to sign with your key under **Settings → Secrets and variables → Actions**:
 
 | Secret | Value |
 | --- | --- |
