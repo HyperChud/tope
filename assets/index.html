@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' file:; script-src 'self' file:; style-src 'self' 'unsafe-inline' file:; img-src 'self' data: blob: file:; connect-src 'none'">
+<title>Topé</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="bd" aria-hidden="true"><div class="bimg"></div><i class="b1"></i><i class="b2"></i><i class="b3"></i><i class="b4"></i></div>
+<div id="pat" aria-hidden="true"></div>
+<input type="file" id="bgfile" accept="image/*" class="hidden">
+<header class="topbar">
+  <div><h1 id="title">Topé</h1><div class="quip" id="quip"></div></div>
+</header>
+<div class="book"><main id="main"></main></div>
+<div id="sb" aria-hidden="true"></div>
+
+<nav class="bottom" id="nav">
+  <button data-tab="home" class="on"><span class="pill" data-icon="home"></span><span class="nt">Accueil</span></button>
+  <button data-tab="cal"><span class="pill" data-icon="cal"></span><span class="nt">Calendrier</span></button>
+  <button data-tab="graph"><span class="pill" data-icon="chart"></span><span class="nt">Graphiques</span></button>
+  <button data-tab="set"><span class="pill" data-icon="tune"></span><span class="nt">Réglages</span></button>
+</nav>
+
+<div class="scrim" id="scrim"></div>
+<section class="sheet" id="sheet"></section>
+
+<div class="scrim d" id="dscrim"></div>
+<div class="dialog" id="dialog"></div>
+<div class="snack" id="snack"></div>
+<div class="ob" id="ob" aria-modal="true" role="dialog"></div>
+
+<script src="subs.js"></script>
+<script src="calc.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

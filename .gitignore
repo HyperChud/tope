@@ -1,0 +1,12 @@
+# Build output
+build/
+*.apk
+
+# Signing keys and secrets: never commit
+*.jks
+*.keystore
+*.p12
+keystore.properties
+.env
+
+.DS_Store

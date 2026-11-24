@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Topé</string>
+    <string name="discret_name">Carnet</string>
+    <string name="w_stats">Topé · stock et stats</string>
+    <string name="w_quick">Topé · boutons rapides</string>
+</resources>
