@@ -1,9 +1,20 @@
-# Topé
+<p align="center"><img src="docs/icon.png" width="120" alt="Topé icon"></p>
+
+<h1 align="center">Topé</h1>
 
 A private, offline Android app for tracking your cannabis use, based on what you buy and, if you want, what you
 weigh.
 
 Topé is a tracking tool, not an incentive to use. All stats come from real measurements: nothing is simulated.
+
+<p align="center">
+  <img src="docs/home.png" width="19%" alt="Home">
+  <img src="docs/calendar.png" width="19%" alt="Calendar">
+  <img src="docs/charts.png" width="19%" alt="Charts">
+  <img src="docs/settings.png" width="19%" alt="Settings">
+  <img src="docs/onboarding.png" width="19%" alt="Onboarding">
+</p>
+<p align="center"><sub>Screenshots use made-up demo data.</sub></p>
 
 ## Privacy
 
